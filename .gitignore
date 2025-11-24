@@ -1,0 +1,27 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Bytecode
+__pycache__/
+*.pyc
+
+# Logs and runtime files
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+*.apk
+*.aab
+*.msix
+
+# Node/Flutter/Gradle caches
+.dart_tool/
+.gradle/
+build/
+
+# IDE settings
+.idea/
+.vscode/
