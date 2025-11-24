@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import TYPE_CHECKING, Optional
+from typing import TYPE_CHECKING, List, Optional
 
 from sqlalchemy import DateTime, ForeignKey, Integer, String, Text, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -27,4 +27,4 @@ class Novel(Base):
     uploaded_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
 
     owner: Mapped["User"] = relationship(back_populates="novels")
-    progress_records: Mapped[list["ReadingProgress"]] = relationship(back_populates="novel", cascade="all, delete-orphan")
+    progress_records: Mapped[List["ReadingProgress"]] = relationship(back_populates="novel", cascade="all, delete-orphan")

@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, List
 
 from sqlalchemy import DateTime, Integer, String, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -21,6 +21,6 @@ class User(Base):
     display_name: Mapped[str] = mapped_column(String(255), nullable=False)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
 
-    novels: Mapped[list["Novel"]] = relationship(back_populates="owner", cascade="all, delete-orphan")
-    progress_records: Mapped[list["ReadingProgress"]] = relationship(back_populates="user", cascade="all, delete-orphan")
+    novels: Mapped[List["Novel"]] = relationship(back_populates="owner", cascade="all, delete-orphan")
+    progress_records: Mapped[List["ReadingProgress"]] = relationship(back_populates="user", cascade="all, delete-orphan")
     settings: Mapped["ReadingSettings"] = relationship(back_populates="user", uselist=False, cascade="all, delete-orphan")
