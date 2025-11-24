@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Optional
 
 from fastapi import APIRouter, Depends, File, HTTPException, UploadFile, status
 from fastapi.responses import FileResponse
@@ -18,9 +19,9 @@ router = APIRouter(prefix="/novels", tags=["novels"])
 @router.post("", response_model=NovelRead, status_code=status.HTTP_201_CREATED)
 async def upload_novel(
     file: UploadFile = File(...),
-    title: str | None = Form(default=None),
-    author: str | None = Form(default=None),
-    description: str | None = Form(default=None),
+    title: Optional[str] = Form(default=None),
+    author: Optional[str] = Form(default=None),
+    description: Optional[str] = Form(default=None),
     user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):

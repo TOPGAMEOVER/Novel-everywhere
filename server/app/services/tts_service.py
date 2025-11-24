@@ -2,13 +2,14 @@ from __future__ import annotations
 
 import hashlib
 from pathlib import Path
+from typing import Optional
 
 import pyttsx3
 
 from app.core.config import get_settings
 
 
-def synthesize_tts(text: str, voice: str | None = None, rate: int | None = None) -> Path:
+def synthesize_tts(text: str, voice: Optional[str] = None, rate: Optional[int] = None) -> Path:
     settings = get_settings()
     digest = hashlib.sha256(f"{voice}-{rate}-{text}".encode("utf-8")).hexdigest()
     audio_path = settings.tts_audio_root / f"{digest}.mp3"

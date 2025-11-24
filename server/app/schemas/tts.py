@@ -1,10 +1,12 @@
+from typing import Optional
+
 from pydantic import BaseModel
 
 
 class TTSRequest(BaseModel):
     text: str
-    voice: str | None = "default"
-    rate: int | None = 200
+    voice: Optional[str] = "default"
+    rate: Optional[int] = 200
 
 
 class TTSResponse(BaseModel):

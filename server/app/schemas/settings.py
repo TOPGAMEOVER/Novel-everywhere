@@ -1,13 +1,15 @@
+from typing import Optional
+
 from pydantic import BaseModel
 
 
 class ReadingSettingsUpdate(BaseModel):
-    font_family: str | None = None
-    font_size: int | None = None
-    line_height: int | None = None
-    theme: str | None = None
-    bg_color: str | None = None
-    tts_voice: str | None = None
+    font_family: Optional[str] = None
+    font_size: Optional[int] = None
+    line_height: Optional[int] = None
+    theme: Optional[str] = None
+    bg_color: Optional[str] = None
+    tts_voice: Optional[str] = None
 
 
 class ReadingSettingsRead(BaseModel):

@@ -1,4 +1,5 @@
 from datetime import datetime
+from typing import Optional
 
 from pydantic import BaseModel
 
@@ -9,7 +10,7 @@ class NovelRead(BaseModel):
     author: str
     format: str
     size: int
-    description: str | None = None
+    description: Optional[str] = None
     uploaded_at: datetime
 
     class Config:
