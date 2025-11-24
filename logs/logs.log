@@ -1,0 +1,105 @@
+Windows PowerShell
+版权所有（C） Microsoft Corporation。保留所有权利。
+
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+
+PS E:\git\Novel-everywhere> git init
+Initialized empty Git repository in E:/git/Novel-everywhere/.git/
+PS E:\git\Novel-everywhere> git add .
+warning: in the working copy of 'clients/android/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/proguard-rules.pro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/src/main/AndroidManifest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/src/main/java/com/novel/everywhere/phone/MainActivity.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/src/main/java/com/novel/everywhere/phone/Narrator.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/src/main/java/com/novel/everywhere/phone/PhoneApp.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/src/main/java/com/novel/everywhere/phone/ui/PhoneScreens.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/src/main/res/values/strings.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-phone/src/main/res/values/themes.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-tablet/build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-tablet/proguard-rules.pro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-tablet/src/main/AndroidManifest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-tablet/src/main/java/com/novel/everywhere/tablet/MainActivity.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-tablet/src/main/java/com/novel/everywhere/tablet/TabletApp.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-tablet/src/main/java/com/novel/everywhere/tablet/ui/TabletScreens.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-tablet/src/main/res/values/strings.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/app-tablet/src/main/res/values/themes.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/consumer-rules.pro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/AndroidManifest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/data/Models.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/data/NovelRepository.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/data/SessionManager.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/di/AppGraph.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/network/ApiClient.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/network/NovelApi.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/presentation/AuthViewModel.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/presentation/LibraryViewModel.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/presentation/ReaderViewModel.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/core/src/main/java/com/novel/everywhere/core/presentation/SettingsViewModel.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/gradle.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/android/settings.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/Api/INovelApi.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/App.xaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/App.xaml.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/MainWindow.xaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/MainWindow.xaml.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/Models/Dtos.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/NovelEverywhere.Desktop.csproj', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/Services/NovelClient.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'clients/windows-desktop/ViewModels/MainViewModel.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/DEPLOYMENT.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/DEVELOPMENT.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/alembic.ini', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/api/api_v1.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/api/deps.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/api/routes/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/api/routes/auth.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/api/routes/novels.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/api/routes/profile.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/api/routes/settings.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/api/routes/tts.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/core/config.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/core/security.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/db/session.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/main.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/models/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/models/novel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/models/reading_progress.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/models/reading_settings.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/models/user.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/schemas/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/schemas/novel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/schemas/progress.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/schemas/settings.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/schemas/token.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/schemas/tts.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/schemas/user.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/services/file_service.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/app/services/tts_service.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/example.env', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/migrations/env.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/migrations/versions/20241124_0001_initial.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/storage/audio/.gitkeep', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'server/storage/novels/.gitkeep', LF will be replaced by CRLF the next time Git touches it
+PS E:\git\Novel-everywhere> git commit -m "Initial release"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'xiepe@GAMEOVER-TX4.(none)')
+PS E:\git\Novel-everywhere> ^C
+PS E:\git\Novel-everywhere>
